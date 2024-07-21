@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: url("bg1.jpg");
+    height: 80vh;
+    /* position: relative; */
+    /* width: 100vw; */
+    /* background-repeat: no-repeat; */
+}
+
+.container .box {
+    /* height: 80vh; */
+    /* width: 100%; */
+    /* width: 100%; */
+    opacity: 0.44;
+    background-color: rgb(0, 0, 0);
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 2px; */
+    padding: 23px;
+}
+
+.container .logo {
+    width: 150px;
+}
+
+.container .si {
+    color: white;
+    background-color: red;
+    width: 75px;
+    height: 34px;
+    border-radius: 5px;
+}
+
+.si:hover {
+    cursor: pointer;
+    background-color: rgb(196, 18, 18);
+}
+
+.main {
+    margin: 35px;
+    position: relative;
+    z-index: 10;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 66px; */
+}
+
+.main h1 {
+    position: relative;
+    z-index: 10;
+    font-size: xx-large;
+    font-weight: 900;
+    margin: 12px;
+}
+
+.main h2 {
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main h3 {
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+    font-weight: 400;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+input {
+    position: relative;
+    z-index: 10;
+    padding: 16px 77px;
+    color: white;
+    background-color: rgb(58, 56, 56);
+    border: 1px solid white;
+}
+
+.gs {
+    position: relative;
+    z-index: 10;
+    padding: 18px 65px;
+    color: white;
+    background-color: red;
+    border-color: none;
+    border-radius: 8px;
+}
+
+.gs:hover {
+    background-color: rgb(199, 19, 19);
+    cursor: pointer;
+}
+
+.header {
+    margin: 38px;
+}
+
+.separation{
+    position: relative;
+    height: 10px;
+    /* background-color: grey; */
+    background-color: rgb(54, 51, 51);
+   
+}
+
+section .first{
+    position: relative;
+}
+
+.first .tf{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first h1{
+    font-weight: 900;
+    font-size: xx-large;
+
+}
+
+.first .hh{
+    padding: 57px;
+}
+
+.first h2{
+    font-weight: 500;
+    font-size: bolder;
+
+}
+
+.iv img{
+    position: absolute;
+    /* padding: 23px 23px; */
+
+}
+
+.iv video{
+    height: 298px;
+    padding: 100px;
+
+    /* position: relative; */
+    /* padding: 100px; */
+    /* z-index: 10; */
+    /* position: relative; */
+
+
+}
+
+section .second{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.it img{
+    width: 250px;
+    padding: 23px;
+}
+
+section .it{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+
+}
+
+.it h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
+}
+
+.it h2{
+    font-size: larger;
+    font-weight: 900;
+    font-weight: bolder;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    display: inline;
+}
+
+.it .hh{
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.third{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    flex-direction: column;
+    height: 144px;
+    padding: 62px;
+
+.third :nth-child(1){
+    color: white;
+    font-size: xxx-large;
+    font-weight: 900;
+    
+    font-family: system-ui;
+}
+
+.third :nth-child(2){
+    color: white;
+    font-size: x-large;
+    /* font-size: xx-large; */
+    font-weight: 500;
+    font-family: system-ui;
+}}
+
+.fourth{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.fourth :nth-child(1){
+    font-size: xxx-large;
+    font-weight: 900;
+    
+
+}
+
+.fourth :nth-child(2){
+    font-size: x-large;
+    font-weight: 300;
+    
+}
+
+.fourth :nth-child(3){
+    font-size: larger;
+    font-weight: 300;
+    
+}
+
+
+.fifth{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fifth h1{
+    color: white;
+}
+
+
+.fifth .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 1008px;
+    height: 64px;
+    border: 2px solid rgb(46, 40, 40);
+    background-color: rgb(44, 37, 37);
+    border-radius: 3px;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
+.fifth .box:hover{
+    background-color: rgb(97, 89, 89);
+}
+
+.box h1{
+    padding: 20px;
+    font-size: x-large;
+}
+
+.fifth img{
+    color: white;
+    padding: 13px;
+    width: 35px;
+}
+
+.fifth p{
+    color: white;
+    padding: 15px;
+    font-size: x-large;
+}
+
+.fifth .ig{
+    padding: 10px;
+
+}
+
+.sixth{
+    background-color: black;
+    color: white;
+    padding: 23px;
+
+
+}
+
+.sixth span a{
+    padding: 153px;
+}
+
+.sixth .grid{
+    padding: 11px 156px;
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
